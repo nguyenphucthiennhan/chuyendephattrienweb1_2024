@@ -48,13 +48,11 @@ if (!empty($_POST['submit'])) {
     // Nếu không có lỗi, xử lý cập nhật hoặc thêm mới người dùng
     if (empty($errors)) {
         if (!empty($_id)) {
-            // Cập nhật người dùng hiện có
             $userModel->updateUser($_POST);
         } else {
-            // Thêm người dùng mới
             $userModel->insertUser($_POST);
         }
-        header('location: list_users.php'); // Chuyển hướng về danh sách người dùng sau khi xử lý xong
+        header('location: list_users.php');
         exit;
     }
 }
