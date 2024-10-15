@@ -110,8 +110,8 @@ $less->compileFile('less/1354.less', 'css/1354.css');
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <label for="visitedLocation">Visited Location<span class="required">*</span></label>
-                  <select class="form-select" id="visitedLocation" required>
+                  <label for="visitedLocation">Visited Location<span class="required">*</span></label><br>
+                  <select style="width: 100%;" class="form-select" id="visitedLocation" required>
                     <option value="Pc & Mac Repair">Pc & Mac Repair</option>
                     <option value="Pc & Mac Repair">Laptop Repair</option>
                     <option value="Pc & Mac Repair">Tablet Repair</option>
