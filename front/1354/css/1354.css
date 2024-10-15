@@ -1,0 +1,144 @@
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+.feedback-form-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: none;
+}
+.feedback-form h2 {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.feedback-form p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.feedback-form label {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 8px 0;
+}
+.form-check-label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #5a5f61;
+}
+.form-check-inline .form-check-input {
+  margin-top: 3px;
+}
+.form-control,
+.form-select,
+textarea {
+  border: 2px solid #edebe3;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: #888;
+}
+.btn-primary {
+  background-color: #e06446;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btn-primary:hover {
+  background-color: #cc563d;
+}
+.required {
+  color: red;
+  font-size: 12px;
+}
+#reason {
+  height: 200px;
+}
+.blog-section {
+  background-color: #ffffff;
+  padding: 3rem 0;
+}
+.blog-section .section-title {
+  font-size: 2.8em;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.blog-section .section-subtitle {
+  color: #666;
+  font-size: 1.4em;
+  margin: 20px 250px;
+}
+.blog-section .blog-post {
+  background-color: #fff;
+  padding: 1.5rem;
+}
+.blog-section .blog-post .fixed-image-size {
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+  position: relative;
+}
+.blog-section .blog-post .fixed-image-size::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0);
+  transition: background 0.3s ease-in-out;
+  z-index: 1000;
+}
+.blog-section .blog-post .fixed-image-size:hover::before {
+  background: rgba(0,0,0,0.3);
+}
+.blog-section .blog-post .fixed-image-size .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog-section .blog-post .post-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.blog-section .blog-post .post-meta .post-category {
+  font-size: 1.8em;
+  margin: 10px 0;
+  display: inline-block;
+}
+.blog-section .blog-post .post-meta .post-date {
+  font-size: 1.8em;
+  margin: 10px 0;
+  display: inline-block;
+}
+.blog-section .blog-post .post-title {
+  font-size: 1.35em;
+  font-weight: 550;
+  color: #333;
+  margin: 20px 0;
+  margin-right: -50px;
+}
+.blog-section .btn-post {
+  background-color: #ffffff;
+  border-color: rgba(0,0,0,0.1);
+  color: black;
+  padding: 5px 30px;
+  font-size: 2rem;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.blog-section .btn-post:hover {
+  background-color: #e6e6e6;
+}

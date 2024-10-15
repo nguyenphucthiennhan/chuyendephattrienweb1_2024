@@ -1,0 +1,185 @@
+@primary-color: #e06446;
+@hover-color: #cc563d;
+@border-color: #edebe3;
+@text-color: #5a5f61;
+@focus-border-color: #888;
+@background-color: #fff;
+@font-family: Arial, sans-serif;
+@font-size-label: 16px;
+@font-size-heading: 24px;
+@white-color: #ffffff;
+/* Màu xám cho nút */
+@ntext-color: #333;
+@subtitle-color: #666;
+
+body {
+  background-color: @background-color;
+  font-family: @font-family;
+}
+
+.feedback-form-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: @background-color;
+  box-shadow: none;
+}
+
+.feedback-form {
+  h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: @font-size-heading;
+    font-weight: bold;
+  }
+
+  p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+    font-size: @font-size-label;
+    margin: 8px 0;
+  }
+}
+
+.form-check-label {
+  font-weight: bold;
+  font-size: 18px;
+  color: @text-color;
+}
+
+.form-check-inline .form-check-input {
+  margin-top: 3px;
+}
+
+.form-control,
+.form-select,
+textarea {
+  border: 2px solid @border-color;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: @focus-border-color;
+}
+
+.btn-primary {
+  background-color: @primary-color;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  &:hover {
+    background-color: @hover-color;
+  }
+}
+
+.required {
+  color: red;
+  font-size: 12px;
+}
+
+#reason {
+  height: 200px;
+}
+
+.blog-section {
+  background-color: #ffffff;
+  padding: 3rem 0;
+
+  .section-title {
+    font-size: 2.8em;
+    color: @ntext-color;
+    margin-bottom: 1rem;
+  }
+
+  .section-subtitle {
+    color: @subtitle-color;
+    font-size: 1.4em;
+    margin: 20px 250px
+  }
+
+  .blog-post {
+    background-color: #fff;
+    padding: 1.5rem;
+
+    .fixed-image-size {
+      width: 110%;
+      height: 110%;
+      object-fit: cover;
+      position: relative;  
+      &::before {
+          content: ""; 
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0);
+          transition: background 0.3s ease-in-out; 
+          z-index: 1000;
+      }
+      &:hover::before {
+          background: rgba(0, 0, 0, 0.3); 
+      }
+      .img{
+        width: 100%;
+      height: 100%;
+      object-fit: cover;
+      }
+  }
+
+    
+
+    .post-meta {
+      color: @subtitle-color;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+
+      .post-category {
+        font-size: 1.8em;
+        margin: 10px 0;
+        display: inline-block;
+      }
+
+      .post-date {
+        font-size: 1.8em;
+        margin: 10px 0;
+        display: inline-block;
+      }
+    }
+
+    .post-title {
+      font-size: 1.35em;
+      font-weight: 550;
+      color: @ntext-color;
+      margin: 20px 0;
+      margin-right: -50px;
+    }
+  }
+
+  .btn-post {
+    background-color: @white-color;
+    border-color: rgba(0, 0, 0, .1);
+    color: black;
+    padding: 5px 30px;
+    font-size: 2rem;
+    border-radius: 4px;
+    margin-top: 20px;
+
+    &:hover {
+      background-color: darken(@white-color, 10%);
+    }
+  }
+}
