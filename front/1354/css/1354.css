@@ -31,31 +31,31 @@ body {
   font-size: 18px;
   color: #5a5f61;
 }
-.form-check-inline .form-check-input {
+.form-check-inline {
   margin-top: 3px;
+  display: inline-block;
 }
-.form-control,
-.form-select,
-textarea {
+.form-custom {
   border: 2px solid #edebe3;
   border-radius: 5px;
   padding: 10px;
   font-size: 16px;
   transition: border-color 0.3s ease;
 }
-.form-control:focus,
-.form-select:focus {
+.form-custom:focus {
   box-shadow: none;
   border-color: #888;
 }
-.btn-primary {
+.btn-submit {
   background-color: #e06446;
   border: none;
   padding: 10px;
   font-weight: bold;
   letter-spacing: 1px;
+  margin: 20px 0;
+  color: #fff;
 }
-.btn-primary:hover {
+.btn-submit:hover {
   background-color: #cc563d;
 }
 .required {

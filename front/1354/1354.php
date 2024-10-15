@@ -42,7 +42,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
                   <label for="firstName">First Name<span class="required">*</span></label>
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control form-custom"
                     id="firstName"
                     required />
                   <div
@@ -55,7 +55,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
                   <label for="lastName">Last Name<span class="required">*</span></label>
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control form-custom"
                     id="lastName"
                     required />
                   <div
@@ -71,7 +71,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
                   <label for="email">Email<span class="required">*</span></label>
                   <input
                     type="email"
-                    class="form-control"
+                    class="form-control form-custom"
                     id="email"
                     required />
                   <div
@@ -84,7 +84,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
                   <label for="phone">Phone<span class="required">*</span></label>
                   <input
                     type="tel"
-                    class="form-control"
+                    class="form-control form-custom"
                     id="phone"
                     required />
                   <div
@@ -100,7 +100,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
                   <label for="dateVisited">Date of Visited<span class="required">*</span></label>
                   <input
                     type="date"
-                    class="form-control"
+                    class="form-control form-custom"
                     id="dateVisited"
                     required />
                   <div
@@ -111,7 +111,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
                 </div>
                 <div class="col-md-6">
                   <label for="visitedLocation">Visited Location<span class="required">*</span></label><br>
-                  <select style="width: 100%;" class="form-select" id="visitedLocation" required>
+                  <select style="width: 100%;" class="form-custom" id="visitedLocation" required>
                     <option value="Pc & Mac Repair">Pc & Mac Repair</option>
                     <option value="Pc & Mac Repair">Laptop Repair</option>
                     <option value="Pc & Mac Repair">Tablet Repair</option>
@@ -128,7 +128,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
                   </div>
                 </div>
               </div>
-              <div class="mb-3 recommendation-group">
+              <div class="my-3 recommendation-group">
                 <label>How Would You Like to Recommend Us?<span class="required">*</span></label>
                 <div>
                   <div class="form-check form-check-inline">
@@ -155,7 +155,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
               <div class="mb-3">
                 <label for="reason">Your Main Reason to Choose Us<span class="required">*</span></label>
                 <textarea
-                  class="form-control"
+                  class="form-control form-custom"
                   id="reason"
                   rows="6"
                   required></textarea>
@@ -164,7 +164,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
                 </div>
               </div>
 
-              <button type="submit" class="btn btn-primary">
+              <button type="submit" class="btn btn-submit">
                 SUBMIT FEEDBACK
               </button>
             </form>
@@ -176,7 +176,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
 </body>
 
 <!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 
 <!-- JavaScript kiểm tra các trường bắt buộc -->
 <script>

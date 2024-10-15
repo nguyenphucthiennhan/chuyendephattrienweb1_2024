@@ -71,7 +71,7 @@ $less->compileFile('less/1354.less', 'css/1354.css');
             </div>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>

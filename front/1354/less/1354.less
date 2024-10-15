@@ -8,7 +8,6 @@
 @font-size-label: 16px;
 @font-size-heading: 24px;
 @white-color: #ffffff;
-/* Màu xám cho nút */
 @ntext-color: #333;
 @subtitle-color: #666;
 
@@ -53,32 +52,30 @@ body {
   color: @text-color;
 }
 
-.form-check-inline .form-check-input {
+.form-check-inline {
   margin-top: 3px;
+  display: inline-block;
 }
 
-.form-control,
-.form-select,
-textarea {
+.form-custom{
   border: 2px solid @border-color;
   border-radius: 5px;
   padding: 10px;
   font-size: 16px;
   transition: border-color 0.3s ease;
 }
-
-.form-control:focus,
-.form-select:focus {
+.form-custom:focus{
   box-shadow: none;
   border-color: @focus-border-color;
 }
-
-.btn-primary {
+.btn-submit {
   background-color: @primary-color;
   border: none;
   padding: 10px;
   font-weight: bold;
   letter-spacing: 1px;
+  margin: 20px 0 ;
+  color: #fff;
 
   &:hover {
     background-color: @hover-color;
