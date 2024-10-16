@@ -131,21 +131,21 @@ $less->compileFile('less/1354.less', 'css/1354.css');
               <div class="my-3 recommendation-group">
                 <label>How Would You Like to Recommend Us?<span class="required">*</span></label>
                 <div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="recommend" id="likely" value="Likely" />
-                    <label class="form-check-label" for="likely">Likely</label>
+                  <div class="form-check form-inline">
+                    <input type="radio" name="recommend" id="likely" value="Likely" />
+                    <label class="form-label" for="likely">Likely</label>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="recommend" id="veryLikely" value="Very Likely" />
-                    <label class="form-check-label" for="veryLikely">Very Likely</label>
+                  <div class="form-check form-inline">
+                    <input type="radio" name="recommend" id="veryLikely" value="Very Likely" />
+                    <label class="form-label" for="veryLikely">Very Likely</label>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="recommend" id="fabulous" value="Fabulous" />
-                    <label class="form-check-label" for="fabulous">Fabulous</label>
+                  <div class="form-check form-inline">
+                    <input type="radio" name="recommend" id="fabulous" value="Fabulous" />
+                    <label class="form-label" for="fabulous">Fabulous</label>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="recommend" id="unlikely" value="Unlikely" />
-                    <label class="form-check-label" for="unlikely">Unlikely</label>
+                  <div class="form-check form-inline">
+                    <input type="radio" name="recommend" id="unlikely" value="Unlikely" />
+                    <label class="form-label" for="unlikely">Unlikely</label>
                   </div>
                 </div>
                 <div class="error-message text-danger" style="display: none;">You must select one option.</div>
